@@ -1,0 +1,101 @@
+*{
+	box-sizing: border-box;
+}
+	h1{
+			text-align: center;
+		}
+		.row{
+			width: 100%;
+		}
+		@media (min-width: 992px) {
+			.col-lg-3 {
+				float: left;
+				background-color: gray;
+				border: 1px solid black;
+				width: 32%;
+				margin: 7px;
+				padding-top: 30px;
+				padding-right: 8px;
+				padding-bottom: 8px;
+				padding-left: 8px;
+				font-family: Comic Sans MS;
+
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px) {
+			.col-md-2{
+				float: left;
+				background-color: gray;
+				border: 1px solid black;
+				width: 48%;
+				margin: 7px;
+				padding-top: 30px;
+				padding-right: 8px;
+				padding-bottom: 8px;
+				padding-left: 8px;
+				font-family: Comic Sans MS;
+			}
+			.col-md-1{
+				float: left;
+				background-color: gray;
+				border: 1px solid black;
+				width: 97.5%;
+				margin: 7px;
+				padding-top: 30px;
+				padding-right: 8px;
+				padding-bottom: 8px;
+				padding-left: 8px;
+				font-family: Comic Sans MS;
+			}
+		}
+		@media (max-width: 767px) {
+			.col-sm-1{
+				float: left;
+				background-color: gray;
+				border: 1px solid black;
+				width: 99%;
+				margin: 7px;
+				padding-top: 30px;
+				padding-right: 8px;
+				padding-bottom: 8px;
+				padding-left: 8px;
+				font-family: Comic Sans MS;
+			}
+			
+		}
+		div .col-lg-3 {
+			position: relative;
+		}
+		p{
+			width: 100px;
+			height: 25px;
+			border: 1px solid black;
+			padding: 2px;
+			font-weight: bold;
+			font-family: Arial;
+		}
+		.p1 {
+			text-align: center;
+			background-color: pink;
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin-top: 0;
+		}
+		.p2 {
+			text-align: center;
+			background-color: red;
+			color: white;
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin-top: 0;
+		}
+		.p3 {
+			text-align: center;
+			background-color: yellow;
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin-top: 0;
+		}
